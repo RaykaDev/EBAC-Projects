@@ -1,0 +1,34 @@
+.header {
+  background-color: #0b3c5d;
+  color: white;
+  padding: 1rem 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  gap: 12px;
+}
+
+.header__nav a {
+  background-color: #ffffff; 
+  color: #0b3c5d; 
+  text-decoration: none;
+  padding: 6px 14px; 
+  border-radius: 6px; 
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 1; /* remove o efeito apagado */
+  transition: all 0.2s ease;
+}
+
+.header__nav a:hover {
+  background-color: #0fb1ce; 
+  color: #0b3c5d;
+}
