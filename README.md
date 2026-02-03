@@ -180,8 +180,23 @@ Aplicação criada como exercício prático de **React** + **TypeScript**, com f
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+🔗 **Acesse o projeto:** [Book Catalog](https://github.com/RaykaDev/EBAC-Projects/tree/main/book-catalog)
+
 ---
 
-🔗 **Acesse o projeto:** [Book Catalog](https://github.com/RaykaDev/EBAC-Projects/tree/main/book-catalog)
+# 🌍 Horizonte Aberto
+
+Aplicação criada como exercício prático de **Next.js**, com foco em aplicar conceitos iniciais do framework, como estrutura de páginas, componentes reutilizáveis, navegação entre rotas e organização do projeto.  
+
+## 🚀 Tecnologias utilizadas
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS Modules](https://img.shields.io/badge/CSS%20Modules-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+
+🔗 **Acesse o projeto:** [Portal Viagens](https://github.com/RaykaDev/EBAC-Projects/tree/main/travel-portal/portal-viagens)
+
 
 
