@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌍 Horizonte Aberto
 
-First, run the development server:
+O **Horizonte Aberto** é um portal de viagens desenvolvido como projeto acadêmico para aplicar **conceitos iniciais do framework Next.js**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O objetivo principal do projeto foi compreender a **estrutura de páginas, componentes, navegação e organização de arquivos no Next.js**, utilizando dados simulados e rotas simples.
+
+A **estilização foi mantida propositalmente simples**, pois o foco esteve na aplicação dos conceitos fundamentais do Next.js, e não em design avançado ou animações complexas.
+
+---
+
+## 🗺️ Estrutura das Páginas
+
+- **Home (`/`)**  
+  Página inicial com uma breve apresentação do portal.
+
+- **Destinos (`/destinos`)**  
+  Página que exibe a listagem de destinos turísticos em formato de cards.
+
+- **Páginas de Destinos Individuais (rotas estáticas)**  
+  Cada destino possui sua própria página com imagem e descrição:
+  - `/paris`
+  - `/roma`
+  - `/toquio`
+  - `/rio`
+
+---
+
+## 📂 Estrutura de Pastas (simplificada)
+```
+app/
+├── Components/
+│   ├── CardDestino/
+│   ├── Header/
+│   ├── Footer/
+│   └── data/
+│       └── destinos.ts
+│
+├── destinos/
+│   └── page.tsx
+│
+├── paris/
+│   └── page.tsx
+├── roma/
+│   └── page.tsx
+├── toquio/
+│   └── page.tsx
+├── rio/
+│   └── page.tsx
+│
+├── layout.tsx
+├── page.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Componentes Principais
 
-## Learn More
+- **Header**  
+  Menu de navegação presente em todas as páginas.
 
-To learn more about Next.js, take a look at the following resources:
+- **Footer**  
+  Rodapé fixo na estrutura do layout.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **CardDestino**  
+  Componente reutilizável responsável por exibir imagem e nome dos destinos na listagem.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tecnologias Utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![CSS Modules](https://img.shields.io/badge/CSS%20Modules-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Como instalar e executar
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/RaykaDev/EBAC-Projects.git
+
+2. Acesse a pasta do projeto:
+   ```
+   cd EBAC-Projects/travel-portal
+3. Instale as depedências: 
+    ```
+     npm install
+    ```
+
+4. Inicie o servidor de desenvolvimento: 
+    ```
+      npm run dev
+    ```
+5. Abra o navegador e acesse:
+     ```bash
+     http://localhost:3000
+     ```
+
+---
+
+
